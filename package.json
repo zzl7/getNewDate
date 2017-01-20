@@ -1,0 +1,22 @@
+{
+  "name": "aa",
+  "version": "1.0.0",
+  "description": "获取日期控件",
+  "main": "getDate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzl7/getNewDate.git"
+  },
+  "keywords": [
+    "获取日期控件"
+  ],
+  "author": "zzl7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzl7/getNewDate/issues"
+  },
+  "homepage": "https://github.com/zzl7/getNewDate#readme"
+}
