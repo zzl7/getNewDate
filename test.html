@@ -6,9 +6,11 @@
 </head>
 <body>
     <div id="test"></div>
-    <script src = './getNewDate.min.js'></script>
+    <script src = './getDate.js'></script>
     <script>
-        document.getElementById("test").innerText= "获取昨天的时间：" + new getNewDate().getOneDay(-1);
+        
+        console.dir(getNewDate())
+        document.getElementById("test").innerText = "获取昨天的时间：" + getNewDate().getOneDay(-1);
     </script>
 </body>
 </html>
