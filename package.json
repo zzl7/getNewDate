@@ -1,6 +1,6 @@
 {
   "name": "aa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "获取日期控件",
   "main": "getDate.js",
   "scripts": {
