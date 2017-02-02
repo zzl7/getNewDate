@@ -18,7 +18,7 @@
             }
         }
     }
-    
+
     g.prototype.init.prototype = g.prototype;
    
     
@@ -53,7 +53,7 @@
     }
 
     //获取上星期的第一天的日期
-    g.fn.lastWeekFirst = function(day) {
+    g.fn.lastWeekFirst = function() {
         var today = new Date();
         var curDay = today.getDay()-1;
         var yesterday_milliseconds = today.getTime() + 1000 * 60 * 60 * 24 * (day-curDay);
